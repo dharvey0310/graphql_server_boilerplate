@@ -1,0 +1,24 @@
+{
+  "name": "graphql_server_boilerplate",
+  "version": "1.0.0",
+  "description": "A GraphQL server boilerplate with support for a number of databases",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/dharvey0310/graphql_server_boilerplate.git",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "author": "David Harvey",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-graphql": "^0.6.1",
+    "graphql": "^0.8.1",
+    "humps": "^2.0.0",
+    "mongodb": "^2.2.11",
+    "mssql": "^3.3.0",
+    "pg": "^6.1.0"
+  }
+}
